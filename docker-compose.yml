@@ -6,5 +6,5 @@ services:
     volumes:
       - .:/app
     environment:
-      NEXT_PUBLIC_API_URL: "https://shorten-url-api-backend.onrender.com"
+      NEXT_PUBLIC_API_URL: "https://shorten-url-api-ooxo.onrender.com"
     command: npm run dev
