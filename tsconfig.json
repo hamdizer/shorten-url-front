@@ -15,14 +15,8 @@
     "incremental": true,
     "paths": {
       "@/*": ["./*"]
-    },
-    "types": [
-      "@types/testing-library__react",
-      "jest",
-      "@testing-library/jest-dom"
-    ]
+    }
   },
-  "jsx": "react",
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
